@@ -3,7 +3,7 @@
 
 <p align="justify">
 <ol>
-<li><a rfec="map.md">Map - Balanced Binary Search Tree</a></li>
+<li><a rfec="./map.md">Map - Balanced Binary Search Tree</a></li>
 <li><a rfec="set.md">Set - Balanced Binary Search Tree</a></li>
 <li><a rfec="union-find.md">Union-Find  Disjoint Sets</a></li>
 <li><a rfec="suffix-array.md"> Suffix array</a></li>
