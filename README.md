@@ -29,9 +29,10 @@
 <li><a href="prim-algorithm.md">Prim's algorithm</a></li>
 
 <h3 align="left">Tree queries</h3>
-
 <li><a href="lca.md"> Lowest common ancestor</a></li>
 
+<h3 align="left">Maximal Flow</h3>
+<li><a href="dinic-algorithm.md"> Dinic's algorithm</a></li>
 
 <li></li>
 
