@@ -64,3 +64,7 @@ Esto será por medio de iteradores
     for(auto it2: mapa)
 	    cout<<it2.first<<” “<<it2.second<<endl;
 
+<br>
+<p>
+La función verdadera de map es como arreglo para poder asociar o relacionar dos tipos de datos tal que la principal diferencia que tiene con un set es que este no permite asignar o acceder a cada valor por medio de una llave, sino que por iteradores ya que no permite el uso del operador [ ], esto igual se observa con respecto a un arreglo y también el tamaño que ocupa en memoria, ya que intentar hacer esto por medio de arreglos tendríamos que ocupar 1234 lugares en memoria si queremos guardar ese número dentro de la estructura.
+</p>

@@ -1,10 +1,17 @@
 <h1 align="center">Data Structures</h1>
-<h3 align="left">List:</h3>
+<h3 align="left">Basic concepts</h3>
+<ol>
+<li><a href="./basic-concepts.md">Concepts</a></li>
+</ol>
 
+
+<h3 align="left">List</h3>
 <p align="justify">
 <ol>
+<li><a href="./priority_queue.md">Priority Queue - Heap</a></li>
 <li><a href="./map.md">Map - Balanced Binary Search Tree</a></li>
-<li><a href="set.md">Set - Balanced Binary Search Tree</a></li>
+<li><a href="./set.md">Set - Balanced Binary Search Tree</a></li>
+<li><a href="./unordered_map_and_set.md">Hash table - unordered_set/map</a></li>
 <li><a href="union-find.md">Union-Find  Disjoint Sets</a></li>
 <li><a href="suffix-array.md"> Suffix array</a></li>
 
