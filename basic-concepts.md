@@ -16,7 +16,7 @@
 	<br><br>
 	Example:
 	<br>
-	<p align="center"><img src="./images/binaryTree.jpg"><br></p>
+	<p align="center"><img src="./Images/binaryTree.jpg"><br></p>
 	<br>
 	From this data structure, we can search for a specific value, for this, it will only be necessary to go following the property discussed above where we will start from the root, and from there we will begin to make comparisons so that if the value sought is less or greater than the value of the node in which we are currently we will know whether to go to the left or to the right. So if we find the number we return it, otherwise, if we reach the leaf nodes and the value still does not match then we deduce that the number is not within the structure.
 	<br><br>
@@ -41,7 +41,7 @@
 	<hr><br>
 	Hash tables are structures that allow us to perform relationships or associations at the time of data pairs, such that we will be storing a key-value pair. As such, these structures are extremely powerful due to the fact that they allow us to access determiner values using a key, such that the key is associated only with that value.
 	<br><br>
-	<p align="center"><img src="./images/hash1.jpg"><br></p>
+	<p align="center"><img src="./Images/hash1.jpg"><br></p>
 	<br>
 	Hash tables support the following operations:<br>
 	<ol>
@@ -52,12 +52,12 @@
 	The important thing is that it is possible to perform these operations with a constant time complexity, so we can search for keys and access elements, or insert and even delete pairs of keys and data in constant time. Having a spatial complexity of linear size, due to the amount of data to be stored in the structure.<br><br>
 	These structures are represented in different programming languages, such as python (dictionaries), javascript (object), c++ as unordered_maps/set. 
 	If we explore a little the implementation of the hash tables we will realize that the way to perform these operations will be based on a hash function, which will give us the ability to transform the key we have into a number, this being an index to be able to store it in an array, we can understand this as follows.<br><br>
-	<p align="center"><img src="./images/hash2.jpg"><br></p>
+	<p align="center"><img src="./Images/hash2.jpg"><br></p>
 	<br><br>
 	Thus, by obtaining these different indexes, it will be possible to perform these operations constantly, so it is possible to apply the theory seen for arrays. However, as we know, it is possible for collisions to occur between the creation of the indexes, so that repeated indexes can be obtained for different keys. This leads us to have linked lists in each position of the array, so that when having collisions what will be done is simply to save those values within the linked list that corresponds to the index obtained, so it is important that the value is still associated with its key so that when searching within the list can distinguish between the different keys we have and the searched one.<br><br>
 	The problem with this is that this search can eventually be reduced to a worst-case linear time complexity, since we can have a case where all the keys collide, making us go from a constant complexity to a linear one. However, in real life, we have very powerful hash functions with which we can practically forget about this worst case and rely on always having constant operations. There is also the concept of resizing that allows us to resize the array size and still have constant complexity in time and linear in space. 
 	It is thanks to these powerful hash functions that convert the key into an index that we can use to map the value. They allow us to use virtually any type of structure as a key, so we can say the following:
 	<br><br>
-	<p align="center"><img src="./images/hash3.jpg"><br></p>
+	<p align="center"><img src="./Images/hash3.jpg"><br></p>
 </p>
 
