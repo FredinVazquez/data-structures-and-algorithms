@@ -13,9 +13,9 @@
 	Code:<br><br>
 	
 
-	```c++
-	#include <bits/stdc++.h>
-	using namespace std;
+```c++
+#include <bits/stdc++.h>
+using namespace std;
 
 	// Se debe de hacer un despeje de la �ltima ecuaci�n proponiendo x=1 y y=2 C =10000
 
@@ -62,28 +62,27 @@
 	    
 		return 0;
 	}
-	```
+```
+<br><br>
 
-	<br><br>
-
-	<h2>Backtracking</h2>
-	<hr><br>
+<h2>Backtracking</h2>
+<hr><br>
 	To understand backtracking you must understand the name, which in short would mean a backtracking, that is to say that to find the solution it is necessary to go back to find a correct solution, normally it should be represented as a tree, a tree of decisions.
-	<br><br>
-	<img src="./Images/backtrack_1.jpg">
-	<br><br>
-	The representation is made in a decision tree to give each answer and it is because each branch gives a different answer. So, for example in the previous drawing a decision tree is represented that represents the different ways that exist to accommodate three colors, here there are no restrictions yet, therefore all the possible ways must be counted.
-	<br><br>
-	One thing that is necessary to observe is that the search for the solution will stop when you already have the 3 colors or seen in another way, when the depth is 4.
-	Then, once a solution is reached, it is assumed that there is more than one, so it is necessary to go back to the previous node to explore the branch that had not been chosen previously. And the way to perform this backtracking is by means of recursion, recursion will be necessary to be able to go deeper in each node and also an iterative cycle will be useful to explore and choose another branch. When making a new decision it will be necessary to check if this choice meets the requirements to call it a solution.
-	<br><br>
-	<h3>Example - Subsets</h3>
-	<hr><br>
-	<img src="./Images/subsets.jpg">
-	<br><br>
-	Code:<br><br>
+<br><br>
+<img src="./Images/backtrack_1.png">
+<br><br>
+The representation is made in a decision tree to give each answer and it is because each branch gives a different answer. So, for example in the previous drawing a decision tree is represented that represents the different ways that exist to accommodate three colors, here there are no restrictions yet, therefore all the possible ways must be counted.
+<br><br>
+One thing that is necessary to observe is that the search for the solution will stop when you already have the 3 colors or seen in another way, when the depth is 4.
+Then, once a solution is reached, it is assumed that there is more than one, so it is necessary to go back to the previous node to explore the branch that had not been chosen previously. And the way to perform this backtracking is by means of recursion, recursion will be necessary to be able to go deeper in each node and also an iterative cycle will be useful to explore and choose another branch. When making a new decision it will be necessary to check if this choice meets the requirements to call it a solution.
+<br><br>
+<h3>Example - Subsets</h3>
+<hr><br>
+<img src="./Images/subsets.png">
+<br><br>
+Code:<br><br>
 
-	```c++
+```c++
 	#include <bits/stdc++.h>
 	using namespace std;
 
@@ -116,19 +115,17 @@
 	    
 		return 0;
 	}
-	```
+```
 
-	<br><br>
+<br><br>
 
-	<h3>Exercise</h3>
-	<hr><br>
-	<img src="./Images/problem_bck.jpg">
-	<br>
-	<img src="./Images/problem_bck.jpg">
-	<br><br>
+<h3>Exercise</h3>
+<hr><br>
+<img src="./Images/problem_bck.jpg">
+<br><br>
 
 
-	```c++
+```c++
 	Input:
 	2
 	root
@@ -174,7 +171,7 @@
 	admin7admin
 	admin8admin
 	admin9admin
-	```
+```
 
 	
 </p>
