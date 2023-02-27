@@ -11,6 +11,8 @@
 	<img src="./Images/c_search.jpg">
 	<br><br>
 	Code:<br><br>
+	
+
 	```c++
 	#include <bits/stdc++.h>
 	using namespace std;
