@@ -142,3 +142,6 @@ Finalmente se deberá de hacer la comparación de los tamaños y esto es con el 
             }
 
 Es posible hacer otras funciones las cuales derivan simplemente de las anteriores realmente.
+<br><br>
+Para una implementación basada en una clase (POO) puede consultar el siguiente <a href="https://github.com/luisfcofv/competitive-programming-book/blob/master/ch2/ch2_08_unionfind_ds.cpp">link.</a>
+
