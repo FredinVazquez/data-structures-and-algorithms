@@ -173,6 +173,7 @@ Code:<br><br>
 	admin9admin
 ```
 
+<<<<<<< HEAD
 <br><br>
 <h2>Two ways to obtain the solution</h2>
 <hr><br>
@@ -526,4 +527,7 @@ int main()
     }
 ```
 
+=======
+	
+>>>>>>> e1e24114a3b1a159ab488a14d22c81b2afe149cd
 </p>
